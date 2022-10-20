@@ -15,6 +15,7 @@ start: npm run dev
 http://localhost:4000/api/v1/contact/new   //add single or bulk data through body
 
 # get contact(with seach,pagination,limit)
+
 http://localhost:4000/api/v1/contact/getAll   //get all contact
 
 http://localhost:4000/api/v1/contact/getAll?keyword=r&limit=7  //get search,pagination,limit
@@ -29,6 +30,7 @@ http://localhost:4000/api/v1/contact/update/:id
 http://localhost:4000/api/v1/contact/delete/:id
 
 #user Api(for token) Endpoint
+
 1.register
 http://localhost:4000/api/v1/user/register
 
